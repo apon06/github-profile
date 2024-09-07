@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="View GitHub user profiles, statistics, and repos using this GitHub profile viewer. Find profile views, followers, repositories, and more.">
+    <meta name="keywords"
+        content="GitHub, GitHub profile, user statistics, repositories, followers, programming languages, GitHub API">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="GitHub Profile Viewer">
+    <meta property="og:description" content="Explore GitHub profiles and stats with this GitHub profile viewer.">
+    <meta property="og:image" content="https://github.com/apon06.png">
+    <meta property="og:url" content="https://github.com/apon06/github-profile-app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GitHub Profile Viewer">
+    <meta name="twitter:description" content="Explore GitHub profiles and stats with this GitHub profile viewer.">
+    <meta name="twitter:image" content="https://github.com/apon06.png">
+    <title>GitHub Profile Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="top-right-links">
+                <a href="https://github.com/apon06" target="_blank" rel="noopener noreferrer">My GitHub</a>
+                <a href="https://github.com/apon06/github-profile-app" target="_blank" rel="noopener noreferrer">Project
+                    Repo</a>
+            </div>
+            <h1>GitHub User Profile Viewer</h1>
+        </header>
+
+        <section id="search-form">
+            <form>
+                <label for="username">Search GitHub User:</label>
+                <input type="text" id="username" placeholder="Enter GitHub username" value="apon06" required />
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section id="profile-container">
+            <img id="avatar" alt="GitHub user avatar" />
+            <h2 id="name"></h2>
+            <p id="bio"></p>
+
+            <div class="stats">
+                <p id="followers"></p>
+                <p id="following"></p>
+                <p id="repos"></p>
+            </div>
+
+            <div class="profile-links">
+                <p align="center">
+                    <img id="profile-views" src="" alt="GitHub profile views" />
+                </p>
+
+                <p align="center">
+                    <a href="https://github.com/ryo-ma/github-profile-trophy" target="_blank" rel="noopener noreferrer">
+                        <img id="trophy" src="" alt="GitHub profile trophy" />
+                    </a>
+                </p>
+
+                <div class="stats-images">
+                    <img id="top-langs" alt="Most used languages on GitHub" />
+                    <img id="stats" alt="GitHub user statistics" />
+                    <img id="streak" alt="GitHub streak stats" />
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Developed by Apon Ahmed
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
