@@ -259,3 +259,11 @@ main.dark {
     background-color: #080d15;
 
 }
+a:link{
+    color: #0378fc;
+    text-decoration: none;
+}
+a:visited{
+    color: #0378fc;
+    text-decoration: none;
+}
