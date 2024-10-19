@@ -25,8 +25,8 @@
 
 ## Project Links
 
-- [My GitHub](https://github.com/apon06)
-- [Project Repository](https://github.com/apon06/github-profile.git)
+- [My GitHub](https://github.com/gokeihub)
+- [Project Repository](https://github.com/gokeihub/github-profile.git)
 
 ## Screenshots
 
@@ -36,10 +36,10 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/apon06/github-profile-app.git
+    git clone https://github.com/gokeihub/github-profile.git
     ```
 
-2. Open `index.html` in your browser to start using the app.
+
 
 ## Future Enhancements
 
@@ -50,4 +50,3 @@
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
